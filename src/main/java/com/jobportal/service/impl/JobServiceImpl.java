@@ -5,6 +5,7 @@ import com.jobportal.dto.response.JobResponse;
 import com.jobportal.entity.*;
 import com.jobportal.exception.ResourceNotFoundException;
 import com.jobportal.repository.*;
+import com.jobportal.repository.JobSkillRepository;
 import com.jobportal.service.JobService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.AccessDeniedException;
